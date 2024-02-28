@@ -62,3 +62,11 @@ In order to set up the infrastructure, inject environment variables and configur
 About environment variables: in this project, the local database access codes are currently pushed alongside the code in a .env file. Bad practise! But in a real-life situation, we can imagine the environment variables are injected during deployment. 
 
 >For instance: when using AWS, these variables can be stored in the Key Management Service.
+
+### Possible improvements
+In its current state, we could implement the following features for this app :
+- An authentication system using Oauth2 / JWT (to manage user access and roles)
+- An interface to read user / fleet / vehicle information (the current CLI is focused on the update flow of the CQRS architecture)
+- A REST/GraphQL API to interact with our data
+- Unit testing (with Jest for instance?)
+- A better dependency injection system for instantiating services / repositories used by the app (using TypeDI for instance)
