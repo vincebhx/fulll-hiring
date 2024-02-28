@@ -1,6 +1,3 @@
-import { User } from "../../src/Domain/Model/user.class";
-import { Vehicle } from "../../src/Domain/Model/vehicle.class";
-import { Fleet } from "../../src/Domain/Model/fleet.class";
 import {
   FleetInterface,
   LocationInterface,

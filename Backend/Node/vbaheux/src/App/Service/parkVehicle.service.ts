@@ -1,6 +1,5 @@
 import { LocationInterface } from "../../Domain/Model/entity.interface";
 import { VehicleRepository } from "../../Domain/Repository/vehicle.repository";
-import { MySQLVehicleRepository } from "../../Domain/Repository/Impl/mySQLVehicleRepository.class";
 
 export class ParkVehicleService {
   private vehicleRepository: VehicleRepository;
